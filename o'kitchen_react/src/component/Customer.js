@@ -13,7 +13,9 @@ function Customer () {
 				</div>
 				<div className="info2">
 					<div className="text">
-						{info2Text.map((d, i) => <li key={i}>{d}</li>)}
+						<ul>
+							{info2Text.map((d, i) => <li key={i}>{d}</li>)}
+						</ul>
 					</div>
 					<div className="contact_btn"><a href="">{infoContactText}</a></div>
 				</div>
